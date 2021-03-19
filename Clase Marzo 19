@@ -1,0 +1,58 @@
+# Ejercicio 1
+for a in range(0, 10, 1):
+    print(a)
+
+# Ejercicio 2
+for b in range(100, 200, 1):
+    print(b)
+
+# Ejercicio 3
+for c in range(5, 20, 3):
+    print(c)
+
+# Ejercicio 4
+n = int(input("Número: "))
+for x in range(n, n2):
+    print(x)
+
+# Ejercicio 5, 6
+f = input("Frase: ")
+for x in "a e i o u":
+    if x in f:
+        print(f"Vocales en la frase: {x}")
+
+# Ejercicio 7
+total = 0
+for i in range(101):
+    total = total+i
+print(f"Sumatoria: {total}")
+
+# Ejercicio 8
+anioInicio = int(input("Año inicial:"))
+anioFin = int(input("Año final:"))
+for anio in range(anioInicio, anioFin+1):
+   if not anio % 10 == 0:
+       continue
+   if not anio % 4 == 0:
+       continue
+   if anio % 100 !=0 or anio % 400 == 0:
+       print(anio)
+
+# Ejercicio 9
+numero = int(input("Número:"))
+f = 1
+if numero != 0:
+    for i in range(1,numero+1):
+        f = fi
+print("Factorial:", f)
+
+# Ejercicio 10
+n1 = 0
+n2 = 1
+print(n1)
+print(n2)
+for i in range(8):
+    n3 = n1+n2
+    print(n3)
+    n1 = n2
+    n2 = n3
